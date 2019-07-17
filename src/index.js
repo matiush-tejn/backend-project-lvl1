@@ -1,8 +1,7 @@
 import readlineSync from 'readline-sync';
 
-export default (getGameData) => {
-  console.log('Welcome to the Brain Games!');
-  console.log('Answer "yes" if number even otherwise answer "no".\n');
+export default (description, getGameData) => {
+  console.log(`Welcome to the Brain Games!\n${description}\n`);
   const playerName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${playerName}!`);
 

@@ -1,6 +1,7 @@
 import gameEngine from '..';
+import { getRandomNum } from '../utils';
 
-const getRandomNum = (min, max) => Math.floor(min + Math.random() * (max - min + 1));
+const description = 'Answer "yes" if number even otherwise answer "no".';
 
 const getGameData = () => {
   const num = getRandomNum(0, 99);
@@ -9,4 +10,4 @@ const getGameData = () => {
   return [question, rightAnswer];
 };
 
-export default () => gameEngine(getGameData);
+export default () => gameEngine(description, getGameData);
