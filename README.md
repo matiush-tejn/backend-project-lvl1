@@ -7,6 +7,10 @@
 
 Training project. Very simple console games.
 
+## Install
+
+`npm install -g brain-games-matiush-tejn`
+
 ## Asciinema
 
 [brain-even](https://asciinema.org/a/vPMADFSD8tZjGG40w68JNrwlv)
