@@ -5,7 +5,7 @@
 
 ## Description
 
-Very simple console games.
+Training project. Very simple console games.
 
 ## Asciinema
 
