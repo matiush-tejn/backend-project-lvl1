@@ -13,12 +13,12 @@ Training project. Very simple console games.
 
 ## Asciinema
 
-[brain-even](https://asciinema.org/a/vPMADFSD8tZjGG40w68JNrwlv)
+[brain-even](https://asciinema.org/a/Zw1gyUJqWCm9wHkSBC5ec55Dh)
 
-[brain-calc](https://asciinema.org/a/rVupf9XEIARIRRVgDCjhazZnL)
+[brain-calc](https://asciinema.org/a/R8aacx3jtLpJru4HlbcC94vtV)
 
-[brain-gcd](https://asciinema.org/a/U62jaHoT62U4GI8MxdmCr069O)
+[brain-gcd](https://asciinema.org/a/6MiKpWnQFSyiMbRj1IKe8ydT4)
 
-[brain-progression](https://asciinema.org/a/x21GSl7Ff0cJj19sDxstoGpVO)
+[brain-progression](https://asciinema.org/a/xcNbX75vIxajGUGMbsBq6EXPJ)
 
-[brain-prime](https://asciinema.org/a/zMe4SGYp3OEhywLm5XL1RJrFX)
+[brain-prime](https://asciinema.org/a/hwbI2gPWQNJarEoQvEHuBf3AD)
