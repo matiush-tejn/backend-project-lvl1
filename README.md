@@ -12,3 +12,5 @@ Very simple console games.
 [brain-even](https://asciinema.org/a/vPMADFSD8tZjGG40w68JNrwlv)
 
 [brain-calc](https://asciinema.org/a/rVupf9XEIARIRRVgDCjhazZnL)
+
+[brain-gcd](https://asciinema.org/a/U62jaHoT62U4GI8MxdmCr069O)
