@@ -13,7 +13,7 @@ const getGameData = () => {
   const step = getRandomNum(1, 9);
   const indexOfHidden = getRandomNum(0, 9);
   const progression = getProgression(first, step);
-  const question = progression.map((num, i) => (i === indexOfHidden ? '..' : num)).join(', ');
+  const question = progression.map((num, i) => (i === indexOfHidden ? '..' : num)).join(' ');
   const rightAnswer = `${progression[indexOfHidden]}`;
   return [question, rightAnswer];
 };
