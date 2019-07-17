@@ -15,4 +15,4 @@ Very simple console games.
 
 [brain-gcd](https://asciinema.org/a/U62jaHoT62U4GI8MxdmCr069O)
 
-[brain-progression](https://asciinema.org/a/eNpwV1JaKdJ5k5gv8gFobTpVJ)
+[brain-progression](https://asciinema.org/a/x21GSl7Ff0cJj19sDxstoGpVO)
