@@ -1,7 +1,7 @@
 {
   "name": "brain-games-matiush-tejn",
   "version": "0.2.0",
-  "description": "Simple console games",
+  "description": "Very simple console games",
   "main": "dist/index.js",
   "bin": {
     "brain-even": "dist/bin/brain-even.js",

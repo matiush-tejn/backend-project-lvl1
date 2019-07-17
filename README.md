@@ -5,7 +5,7 @@
 
 ## Description
 
-Simple console games.
+Very simple console games.
 
 ## Asciinema
 
