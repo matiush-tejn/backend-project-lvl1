@@ -3,6 +3,13 @@
   "version": "0.5.0",
   "description": "Very simple console games",
   "main": "",
+  "keywords": [
+    "hexlet",
+    "brain-games",
+    "simple",
+    "console",
+    "game"
+  ],
   "bin": {
     "brain-even": "dist/bin/brain-even.js",
     "brain-calc": "dist/bin/brain-calc.js",
@@ -23,6 +30,7 @@
   },
   "author": "Eugene Lekhanov",
   "license": "ISC",
+  "homepage": "https://github.com/matiush-tejn/backend-project-lvl1#readme",
   "dependencies": {
     "readline-sync": "^1.4.9"
   },
