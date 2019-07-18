@@ -3,12 +3,7 @@ import { getRandomNum } from '../utils';
 
 const description = 'What is the result of the expression?';
 
-const getOperationData = () => {
-  const operationNum = getRandomNum(1, 3);
-  if (operationNum === 1) return ['+', (a, b) => a + b];
-  if (operationNum === 2) return ['-', (a, b) => a - b];
-  return ['*', (a, b) => a * b];
-};
+const getOperationData = () => [['+', (a, b) => a + b], ['-', (a, b) => a - b], ['*', (a, b) => a * b]][getRandomNum(0, 2)];
 
 const getGameData = () => {
   const num1 = getRandomNum(0, 99);
