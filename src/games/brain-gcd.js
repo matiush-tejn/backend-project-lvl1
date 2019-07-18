@@ -10,8 +10,10 @@ const getGcd = (num1, num2) => {
 };
 
 const getGameData = () => {
-  const num1 = getRandomNum(1, 99);
-  const num2 = getRandomNum(1, 99);
+  const min = 1;
+  const max = 99;
+  const num1 = getRandomNum(min, max);
+  const num2 = getRandomNum(min, max);
   const question = `${num1} ${num2}`;
   const rightAnswer = `${getGcd(num1, num2)}`;
   return [question, rightAnswer];
