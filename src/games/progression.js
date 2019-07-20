@@ -1,20 +1,24 @@
 import gameEngine from '..';
-import { getRandomNum } from '../utils';
+import getRandomNum from '../utils';
 
 const description = 'What number is missing in the progression?';
 
-const getProgression = (first, step) => {
-  const iter = (num, acc) => (acc.length < 10 ? iter(num + step, [...acc, num]) : acc);
+const getProgressionElements = (first, step, progressionLength) => {
+  const iter = (num, acc) => (
+    acc.length < progressionLength ? iter(num + step, [...acc, num]) : acc);
   return iter(first, []);
 };
 
 const getGameData = () => {
-  const first = getRandomNum(0, 99);
-  const step = getRandomNum(1, 9);
-  const indexOfHidden = getRandomNum(0, 9);
-  const progression = getProgression(first, step);
-  const question = progression.map((num, i) => (i === indexOfHidden ? '..' : num)).join(' ');
-  const rightAnswer = `${progression[indexOfHidden]}`;
+  const firstElementValue = getRandomNum(0, 99);
+  const stepProgression = getRandomNum(1, 9);
+  const progressionLength = 10;
+  const hiddenElementIndex = getRandomNum(0, progressionLength - 1);
+  const progressionElements = getProgressionElements(
+    firstElementValue, stepProgression, progressionLength,
+  );
+  const question = progressionElements.map((num, i) => (i === hiddenElementIndex ? '..' : num)).join(' ');
+  const rightAnswer = progressionElements[hiddenElementIndex].toString();
   return [question, rightAnswer];
 };
 

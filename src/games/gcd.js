@@ -1,21 +1,21 @@
 import gameEngine from '..';
-import { getRandomNum } from '../utils';
+import getRandomNum from '../utils';
 
 const description = 'Find the greatest common divisor of given numbers.';
 
-const getGcd = (num1, num2) => {
-  if (num1 === num2) return num1;
-  const diff = Math.abs(num1 - num2);
-  return num1 > num2 ? getGcd(diff, num2) : getGcd(num1, diff);
+const getGcd = (a, b) => {
+  if (a === b) return a;
+  const diff = Math.abs(a - b);
+  return a > b ? getGcd(diff, b) : getGcd(a, diff);
 };
 
 const getGameData = () => {
   const min = 1;
   const max = 99;
-  const num1 = getRandomNum(min, max);
-  const num2 = getRandomNum(min, max);
-  const question = `${num1} ${num2}`;
-  const rightAnswer = `${getGcd(num1, num2)}`;
+  const a = getRandomNum(min, max);
+  const b = getRandomNum(min, max);
+  const question = `${a} ${b}`;
+  const rightAnswer = getGcd(a, b).toString();
   return [question, rightAnswer];
 };
 

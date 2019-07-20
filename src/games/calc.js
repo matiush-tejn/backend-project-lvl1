@@ -1,5 +1,5 @@
 import gameEngine from '..';
-import { getRandomNum } from '../utils';
+import getRandomNum from '../utils';
 
 const description = 'What is the result of the expression?';
 
@@ -12,11 +12,11 @@ const operations = [
 const getGameData = () => {
   const min = 0;
   const max = 99;
-  const num1 = getRandomNum(min, max);
-  const num2 = getRandomNum(min, max);
-  const [operationSign, operation] = operations[getRandomNum(0, operations.length - 1)];
-  const question = `${num1} ${operationSign} ${num2}`;
-  const rightAnswer = `${operation(num1, num2)}`;
+  const a = getRandomNum(min, max);
+  const b = getRandomNum(min, max);
+  const [sign, operation] = operations[getRandomNum(0, operations.length - 1)];
+  const question = `${a} ${sign} ${b}`;
+  const rightAnswer = operation(a, b).toString();
   return [question, rightAnswer];
 };
 
