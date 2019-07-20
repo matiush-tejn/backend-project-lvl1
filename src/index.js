@@ -4,8 +4,8 @@ const numOfRounds = 3;
 
 export default (description, getGameData) => {
   console.log('Welcome to the Brain Games!');
-  console.log(`${description}\n`);
-  const playerName = readlineSync.question('May I have your name? ');
+  console.log(description);
+  const playerName = readlineSync.question('\nMay I have your name? ');
   console.log(`Hello, ${playerName}!\n`);
 
   const iter = (i) => {
