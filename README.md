@@ -10,15 +10,26 @@ Training project. Very simple console games.
 ## Install
 
 `npm install -g brain-games-matiush-tejn`
+<a href="https://asciinema.org/a/l3YMJYpgwQ35IFAKo7vTtv1IO?autoplay=1"><img src="https://asciinema.org/a/l3YMJYpgwQ35IFAKo7vTtv1IO.svg"/></a>
 
-## Asciinema
+## Start and play
 
-[![brain-even](https://asciinema.org/a/Zw1gyUJqWCm9wHkSBC5ec55Dh.png)](https://asciinema.org/a/Zw1gyUJqWCm9wHkSBC5ec55Dh)
+`brain-even`
+<a href="https://asciinema.org/a/ceptTKu6CMtxy0GxrCh71aT1v?autoplay=1"><img src="https://asciinema.org/a/ceptTKu6CMtxy0GxrCh71aT1v.svg"/></a>
+<a href="https://asciinema.org/a/9YW7kZkjEWrQbC3PeqSJIC3BN?autoplay=1"><img src="https://asciinema.org/a/9YW7kZkjEWrQbC3PeqSJIC3BN.svg"/></a>
 
-[![brain-calc](https://asciinema.org/a/R8aacx3jtLpJru4HlbcC94vtV.png)](https://asciinema.org/a/R8aacx3jtLpJru4HlbcC94vtV)
+`brain-calc`
+<a href="https://asciinema.org/a/hfKPfiv6v9BoPT8TAQAgtf3j1?autoplay=1"><img src="https://asciinema.org/a/hfKPfiv6v9BoPT8TAQAgtf3j1.svg"/></a>
+<a href="https://asciinema.org/a/nBnEydd0kYuGatQzp0fouiS0b?autoplay=1"><img src="https://asciinema.org/a/nBnEydd0kYuGatQzp0fouiS0b.svg"/></a>
 
-[![brain-gcd](https://asciinema.org/a/6MiKpWnQFSyiMbRj1IKe8ydT4.png)](https://asciinema.org/a/6MiKpWnQFSyiMbRj1IKe8ydT4)
+`brain-gcd`
+<a href="https://asciinema.org/a/BUsW6iMmQ3DFlhtKV97jyGAAq?autoplay=1"><img src="https://asciinema.org/a/BUsW6iMmQ3DFlhtKV97jyGAAq.svg"/></a>
+<a href="https://asciinema.org/a/3a4nAD7esrLAOSsCF3ciAxjko?autoplay=1"><img src="https://asciinema.org/a/3a4nAD7esrLAOSsCF3ciAxjko.svg"/></a>
 
-[![brain-progression](https://asciinema.org/a/xcNbX75vIxajGUGMbsBq6EXPJ.png)](https://asciinema.org/a/xcNbX75vIxajGUGMbsBq6EXPJ)
+`brain-progression`
+<a href="https://asciinema.org/a/ujQObO5dNJ7cOlL3l6F2qDabD?autoplay=1"><img src="https://asciinema.org/a/ujQObO5dNJ7cOlL3l6F2qDabD.svg"/></a>
+<a href="https://asciinema.org/a/0yQZJKZ4Y9ryvTMZKkBRKhxZM?autoplay=1"><img src="https://asciinema.org/a/0yQZJKZ4Y9ryvTMZKkBRKhxZM.svg"/></a>
 
-[![brain-prime](https://asciinema.org/a/hwbI2gPWQNJarEoQvEHuBf3AD.png)](https://asciinema.org/a/hwbI2gPWQNJarEoQvEHuBf3AD)
+`brain-prime`
+<a href="https://asciinema.org/a/nXdCl7voHebW4rJJHLih135y7?autoplay=1"><img src="https://asciinema.org/a/nXdCl7voHebW4rJJHLih135y7.svg"/></a>
+<a href="https://asciinema.org/a/vEgYHKyUqzp2gODnO3vzraIoz?autoplay=1"><img src="https://asciinema.org/a/vEgYHKyUqzp2gODnO3vzraIoz.svg"/></a>
