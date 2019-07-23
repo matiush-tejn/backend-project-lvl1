@@ -1,4 +1,4 @@
-import gameEngine from '..';
+import engine from '../engine';
 import getRandomNum from '../utils';
 
 const description = 'Answer "yes" if number even otherwise answer "no".';
@@ -11,4 +11,4 @@ const getGameData = () => {
   return [question.toString(), rightAnswer];
 };
 
-export default () => gameEngine(description, getGameData);
+export default () => engine(description, getGameData);

@@ -1,4 +1,4 @@
-import gameEngine from '..';
+import engine from '../engine';
 import getRandomNum from '../utils';
 
 const description = 'What is the result of the expression?';
@@ -20,4 +20,4 @@ const getGameData = () => {
   return [question, rightAnswer];
 };
 
-export default () => gameEngine(description, getGameData);
+export default () => engine(description, getGameData);

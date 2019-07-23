@@ -1,25 +1,23 @@
-import gameEngine from '..';
+import engine from '../engine';
 import getRandomNum from '../utils';
 
 const description = 'What number is missing in the progression?';
 
-const getProgressionElements = (first, step, progressionLength) => {
+const getProgression = (first, step, len) => {
   const iter = (num, acc) => (
-    acc.length < progressionLength ? iter(num + step, [...acc, num]) : acc);
+    acc.length < len ? iter(num + step, [...acc, num]) : acc);
   return iter(first, []);
 };
 
 const getGameData = () => {
-  const firstElementValue = getRandomNum(0, 99);
-  const stepProgression = getRandomNum(1, 9);
-  const progressionLength = 10;
-  const hiddenElementIndex = getRandomNum(0, progressionLength - 1);
-  const progressionElements = getProgressionElements(
-    firstElementValue, stepProgression, progressionLength,
-  );
-  const question = progressionElements.map((num, i) => (i === hiddenElementIndex ? '..' : num)).join(' ');
-  const rightAnswer = progressionElements[hiddenElementIndex].toString();
+  const first = getRandomNum(0, 99);
+  const step = getRandomNum(1, 9);
+  const len = 10;
+  const elements = getProgression(first, step, len);
+  const hiddenElementIndex = getRandomNum(0, len - 1);
+  const question = elements.map((num, i) => (i === hiddenElementIndex ? '..' : num)).join(' ');
+  const rightAnswer = elements[hiddenElementIndex].toString();
   return [question, rightAnswer];
 };
 
-export default () => gameEngine(description, getGameData);
+export default () => engine(description, getGameData);
