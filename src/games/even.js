@@ -8,7 +8,7 @@ const isEven = num => num % 2 === 0;
 const getGameData = () => {
   const question = getRandomNum(0, 99);
   const rightAnswer = isEven(question) ? 'yes' : 'no';
-  return [question.toString(), rightAnswer];
+  return [question, rightAnswer];
 };
 
 export default () => engine(description, getGameData);

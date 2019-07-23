@@ -16,7 +16,7 @@ const isPrime = (num) => {
 const getGameData = () => {
   const question = getRandomNum(1, 99);
   const rightAnswer = isPrime(question) ? 'yes' : 'no';
-  return [question.toString(), rightAnswer];
+  return [question, rightAnswer];
 };
 
 export default () => engine(description, getGameData);
