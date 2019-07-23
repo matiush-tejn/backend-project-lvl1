@@ -15,20 +15,20 @@ Training project. Very simple console games.
 
 brain-even:
 
-https://asciinema.org/a/Zw1gyUJqWCm9wHkSBC5ec55Dh
+(https://asciinema.org/a/Zw1gyUJqWCm9wHkSBC5ec55Dh)
 
 brain-calc:
 
-https://asciinema.org/a/R8aacx3jtLpJru4HlbcC94vtV
+(https://asciinema.org/a/R8aacx3jtLpJru4HlbcC94vtV)
 
 brain-gcd:
 
-https://asciinema.org/a/6MiKpWnQFSyiMbRj1IKe8ydT4
+(https://asciinema.org/a/6MiKpWnQFSyiMbRj1IKe8ydT4)
 
 brain-progression:
 
-https://asciinema.org/a/xcNbX75vIxajGUGMbsBq6EXPJ
+(https://asciinema.org/a/xcNbX75vIxajGUGMbsBq6EXPJ)
 
 brain-prime:
 
-https://asciinema.org/a/hwbI2gPWQNJarEoQvEHuBf3AD
+(https://asciinema.org/a/hwbI2gPWQNJarEoQvEHuBf3AD)
