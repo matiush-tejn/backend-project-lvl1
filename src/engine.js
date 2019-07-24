@@ -11,17 +11,17 @@ export default (description, getGameData) => {
   const iter = (i) => {
     if (i > roundsCount) {
       console.log(`Congratulations, ${playerName}!`);
-      return undefined;
+      return;
     }
     const [question, rightAnswer] = getGameData();
     const playerAnswer = readlineSync.question(`Question: ${question}\nYour answer: `);
     if (rightAnswer !== playerAnswer) {
       console.log(`'${playerAnswer}' is wrong answer ;). Correct answer was '${rightAnswer}'.`);
       console.log(`Let's try again, ${playerName}!`);
-      return undefined;
+      return;
     }
     console.log('Correct!');
-    return iter(i + 1);
+    iter(i + 1);
   };
 
   iter(1);
