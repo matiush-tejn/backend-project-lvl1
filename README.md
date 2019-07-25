@@ -4,10 +4,15 @@
 [![Build Status](https://travis-ci.org/matiush-tejn/backend-project-lvl1.svg?branch=master)](https://travis-ci.org/matiush-tejn/backend-project-lvl1)
 ### Description
 Training project. Very simple console games.
+
 brain-even: Answer "yes" if number even otherwise answer "no".
+
 brain-calc: What is the result of the expression?
+
 brain-gcd: Find the greatest common divisor of given numbers.
+
 brain-progression: What number is missing in the progression?
+
 brain-prime: Answer "yes" if given number is prime. Otherwise answer "no".
 ### Install
 ```
